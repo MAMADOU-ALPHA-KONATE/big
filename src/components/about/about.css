@@ -1,0 +1,74 @@
+/* about.css */
+
+.about-container {
+    background-color: rgba(26, 26, 26, 1);
+    padding: 50px 0;
+  }
+  
+  .about-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .ABOUT {
+    display: flex;
+    flex-direction: column; /* Pour empiler les sections en mode mobile */
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .image-section {
+    flex: 0 0 100%; /* L'image prend toute la largeur en mode mobile */
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .img-about {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    order: -1;
+  }
+  
+  .text-section-about {
+    flex: 0 0 100%; /* Le texte prend toute la largeur en mode mobile */
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .icons-section-about {
+    display: flex;
+    align-items: center;
+    line-height: 1rem;
+    margin: 60px 0;
+    color: aliceblue;
+  }
+  
+  .icons-section-about svg {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  /* Ajout de règles @media queries pour la mise en page responsive */
+  
+  @media (min-width: 768px) {
+    .ABOUT {
+      flex-direction: row; /* Revenir à la disposition en ligne en mode tablette et plus grand */
+      justify-content: space-between;
+    }
+  
+    .image-section {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+  
+    .text-section-about {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+  }
+  

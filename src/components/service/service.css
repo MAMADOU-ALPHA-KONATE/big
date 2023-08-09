@@ -1,0 +1,74 @@
+.service-container {
+    width: 97%;
+    margin: 10px auto;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .service-header {
+    padding: 20px;
+  }
+  
+  .service-header span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .service-header h2 {
+    font-size: 36px;
+  }
+  
+  .service-header p {
+    font-size: 18px;
+  }
+  
+  .service-stats {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-stat {
+    text-align: center;
+  }
+  
+  .service-stat span {
+    font-size: 48px;
+  }
+  
+  .service-stat h6 {
+    font-size: 18px;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .service-icon {
+    font-size: 48px;
+    margin: 20px;
+  }
+  
+  .service-content {
+    margin: 20px;
+  }
+  
+  .service-content span {
+    font-weight: bold;
+  }
+  
+  .service-content h4, .service-content h5 {
+    font-size: 24px;
+  }
+  
+  .service-content p {
+    font-size: 18px;
+  }
+  

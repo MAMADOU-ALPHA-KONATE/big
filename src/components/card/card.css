@@ -1,0 +1,56 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .my {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .cardss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cards {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cards p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Ajout de règles @media queries pour la mise en page responsive */
+  
+  @media (max-width: 768px) {
+    .cardss {
+      flex-direction: column; /* Empiler les cartes en mode mobile */
+      align-items: center;
+    }
+  
+    .cards {
+      flex: 1 1 100%; /* Les cartes prennent toute la largeur en mode mobile */
+    }
+  }
+  
